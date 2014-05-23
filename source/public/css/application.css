@@ -1,0 +1,73 @@
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;
+}
+
+
+.container {
+  margin: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+  width: 90%;
+  height: 94%;
+  border: 1px solid black;
+}
+
+.login_form{
+	position: relative;
+
+	padding-left: 35%;
+	margin-top: 10%;
+}
+
+.register_form{
+	padding-left: 35%;
+	margin-bottom: 10%;
+
+}
+
+#sign-in {
+	margin: auto;
+	border: 2px solid black;
+	width: 70%;
+	margin-top: 6%;
+	margin-bottom: 2%;
+
+}
+
+#errors{
+	font-size: 1em;
+	color: red;
+	margin-top: 10px;
+	float: right;
+}
+
+a {
+	text-decoration: none;
+}
+
+.nav {
+	background-color: black;
+}
+
+.nav ul {
+	list-style-type: none;
+	display: inline-block;
+	padding-left: 15px;
+}
+
+.nav li {
+	display: inline;
+	margin: 0px 10px;
+}
+
+.nav a {
+	color: white;
+}
+
+.nav a:hover {
+	color: yellow;
+}

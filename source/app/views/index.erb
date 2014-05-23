@@ -1,0 +1,27 @@
+<div id="sign-in">
+  <div class="login_form">
+  <h2>Login</h2>
+    <form class="form" action="/login" method="post">
+      <input type="text" name="email" placeholder="email"><br>
+      <input type="password" name="password" placeholder="password"><br>
+      <input type="submit" value="Login">
+      <% if @login_error %>
+        <small style="color:red">Login Error.</small>
+      <% end %>
+    </form>
+  </div>
+
+  <div class="register_form">
+  <h2>Registration</h2>
+    <form class="form" action="register" method="post">
+      <input type="text" name="email" placeholder="email"><br>
+      <input type="password" name="password" placeholder="password"><br>
+      <input type="submit" value="Register">
+      <% if @register_error %>
+        <small style="color:red">Registration Error.</small>
+      <% end %>
+    </form>
+      <div id="errors"></div>
+  </div>
+</div>
+
